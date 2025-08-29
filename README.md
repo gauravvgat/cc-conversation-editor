@@ -1,26 +1,8 @@
 # Claude Code Conversation Editor
 
-A modern, high-performance Next.js web application to view and edit Claude Code CLI conversation history. Features beautiful glass-morphism UI, pagination, search, image support, and comprehensive message management tools.
+A modern, high-performance Next.js web application to view and edit Claude Code CLI conversation history. Features beautiful glass-morphism UI, pagination, search, image support, and comprehensive message management tools. At times, you want to keep the conversation going without hitting the compaction. This tool helps you selectively delete messages from the context to free up more space.
 
 ## Features
-
-### 🎨 **Modern UI & Performance**
-- **Glass-morphism Design**: Beautiful animated gradients and blur effects
-- **Responsive Layout**: Works perfectly on desktop, tablet, and mobile
-- **High Performance**: Pagination loads only 50 messages at a time for instant loading
-- **Auto-scroll**: Automatically focuses on conversation content when selected
-
-### 🔍 **Advanced Search & Filtering**
-- **Real-time Search**: Search across message content, tool names, and image descriptions
-- **Smart Filters**: Filter by User, Assistant, Tools, Images, or view All messages
-- **Text Highlighting**: Search terms are highlighted with beautiful gradients
-- **Cross-page Search**: Search works across all loaded message pages
-
-### 🖼️ **Image Support**
-- **Base64 Images**: Full support for Claude conversation screenshots and images
-- **Performance Toggle**: Load/hide images for optimal performance
-- **Lazy Loading**: Images load only when needed
-- **Visual Indicators**: 🖼️ icon shows messages containing images
 
 ### 🛠️ **Tool Message Management**
 - **Expandable Tools**: Click to expand/collapse detailed tool_use and tool_result content
@@ -44,6 +26,22 @@ A modern, high-performance Next.js web application to view and edit Claude Code 
 - **Automatic Backups**: Timestamped backups before any modification
 - **Validation**: Comprehensive checks prevent data corruption
 - **Error Handling**: Graceful fallbacks and user-friendly error messages
+
+### 🎨 **Modern UI & Performance**
+- **Glass-morphism Design**: Beautiful animated gradients and blur effects
+- **Responsive Layout**: Works perfectly on desktop, tablet, and mobile
+- **High Performance**: Pagination loads only 50 messages at a time for instant loading
+- **Auto-scroll**: Automatically focuses on conversation content when selected
+
+### 🔍 **Advanced Search & Filtering**
+- **Real-time Search**: Search across message content, tool names, and image descriptions
+- **Smart Filters**: Filter by User, Assistant, Tools, Images, or view All messages
+- **Text Highlighting**: Search terms are highlighted with beautiful gradients
+- **Cross-page Search**: Search works across all loaded message pages
+
+### 🖼️ **Image Support**
+- **Base64 Images**: Full support for Claude conversation screenshots and images
+- **Visual Indicators**: 🖼️ icon shows messages containing images
 
 ## Setup
 
